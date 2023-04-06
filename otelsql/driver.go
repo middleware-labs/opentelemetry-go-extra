@@ -5,6 +5,8 @@ import (
 	"database/sql"
 	"database/sql/driver"
 	"errors"
+	"fmt"
+	"time"
 
 	"go.opentelemetry.io/otel/trace"
 )
@@ -326,7 +328,12 @@ func (c *otelConn) createQueryCtxFunc(conn driver.Conn) queryCtxFunc {
 
 	return func(ctx context.Context, query string, args []driver.NamedValue) (driver.Rows, error) {
 		var rows driver.Rows
-		err := c.instrum.withSpan(ctx, "db.Query", query,
+		fmt.Println("query", query)
+		var spanName = "db.Query"
+		if query != "" {
+			spanName = query
+		}
+		err := c.instrum.withSpan(ctx, spanName, query,
 			func(ctx context.Context, span trace.Span) error {
 				var err error
 				rows, err = fn(ctx, query, args)

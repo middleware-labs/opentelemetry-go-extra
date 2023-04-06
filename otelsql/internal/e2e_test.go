@@ -14,7 +14,7 @@ import (
 	"go.opentelemetry.io/otel/trace"
 	_ "modernc.org/sqlite"
 
-	"github.com/uptrace/opentelemetry-go-extra/otelsql"
+	"github.com/middleware-lab/opentelemetry-go-extra/otelsql"
 )
 
 var dbRowsAffected = attribute.Key("db.rows_affected")
