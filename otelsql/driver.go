@@ -6,7 +6,6 @@ import (
 	"database/sql/driver"
 	"errors"
 	"fmt"
-	"time"
 
 	"go.opentelemetry.io/otel/trace"
 )
