@@ -1,12 +1,12 @@
-module github.com/uptrace/opentelemetry-go-extra/example/gomemcache
+module github.com/middleware-labs/opentelemetry-go-extra/example/gomemcache
 
 go 1.18
 
-replace github.com/uptrace/opentelemetry-go-extra/otelplay => ../../otelplay
+replace github.com/middleware-labs/opentelemetry-go-extra/otelplay => ../../otelplay
 
 require (
 	github.com/bradfitz/gomemcache v0.0.0-20230124162541-5f7a7d875746
-	github.com/uptrace/opentelemetry-go-extra/otelplay v0.1.21
+	github.com/middleware-labs/opentelemetry-go-extra/otelplay v0.1.21
 	go.opentelemetry.io/contrib/instrumentation/github.com/bradfitz/gomemcache/memcache/otelmemcache v0.39.0
 	go.opentelemetry.io/otel v1.13.0
 	go.opentelemetry.io/otel/trace v1.13.0
@@ -18,7 +18,7 @@ require (
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.15.0 // indirect
-	github.com/uptrace/uptrace-go v1.13.0 // indirect
+	github.com/middleware-labs/uptrace-go v1.13.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/runtime v0.39.0 // indirect
 	go.opentelemetry.io/otel/exporters/jaeger v1.13.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/internal/retry v1.13.0 // indirect

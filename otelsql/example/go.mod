@@ -1,13 +1,13 @@
-module github.com/middleware-lab/opentelemetry-go-extra/otelsql/example
+module github.com/middleware-labs/opentelemetry-go-extra/otelsql/example
 
 go 1.18
 
-replace github.com/middleware-lab/opentelemetry-go-extra/otelsql => ./..
+replace github.com/middleware-labs/opentelemetry-go-extra/otelsql => ./..
 
-replace github.com/middleware-lab/opentelemetry-go-extra/otelplay => ../../otelplay
+replace github.com/middleware-labs/opentelemetry-go-extra/otelplay => ../../otelplay
 
 require (
-	github.com/middleware-lab/opentelemetry-go-extra/otelsql v0.1.21
+	github.com/middleware-labs/opentelemetry-go-extra/otelsql v0.1.21
 	go.opentelemetry.io/otel v1.13.0
 	modernc.org/sqlite v1.20.3
 )
@@ -22,7 +22,7 @@ require (
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.15.0 // indirect
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
-	github.com/middleware-lab/uptrace-go v1.13.0 // indirect
+	github.com/middleware-labs/uptrace-go v1.13.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/runtime v0.39.0 // indirect
 	go.opentelemetry.io/otel/exporters/jaeger v1.13.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/internal/retry v1.13.0 // indirect
@@ -54,7 +54,7 @@ require (
 
 require (
 	github.com/mattn/go-isatty v0.0.17 // indirect
-	github.com/middleware-lab/opentelemetry-go-extra/otelplay v0.1.21
+	github.com/middleware-labs/opentelemetry-go-extra/otelplay v0.1.21
 	golang.org/x/tools v0.5.0 // indirect
 	lukechampine.com/uint128 v1.2.0 // indirect
 	modernc.org/ccgo/v3 v3.16.13 // indirect

@@ -189,8 +189,8 @@ github.com/stretchr/testify v1.8.1 h1:w7B6lhMri9wdJUVmEZPGGhZzrYTPvgJArz7wNPgYKs
 github.com/stretchr/testify v1.8.1/go.mod h1:w2LPCIKwWwSfY2zedu0+kehJoqGctiVI29o6fzry7u4=
 github.com/ugorji/go/codec v1.2.9 h1:rmenucSohSTiyL09Y+l2OCk+FrMxGMzho2+tjr5ticU=
 github.com/ugorji/go/codec v1.2.9/go.mod h1:UNopzCgEMSXjBc6AOMqYvWC1ktqTAfzJZUZgYf6w6lg=
-github.com/uptrace/uptrace-go v1.13.0 h1:ZVeKwQEmDP9K9ypMIOYUHA03cG2dfzZTatq6nRhdqbw=
-github.com/uptrace/uptrace-go v1.13.0/go.mod h1:HnVvehNYUr4NcthYqd/bsmG2YDh+2WkDdpJKjX0tygs=
+github.com/middleware-labs/uptrace-go v1.13.0 h1:ZVeKwQEmDP9K9ypMIOYUHA03cG2dfzZTatq6nRhdqbw=
+github.com/middleware-labs/uptrace-go v1.13.0/go.mod h1:HnVvehNYUr4NcthYqd/bsmG2YDh+2WkDdpJKjX0tygs=
 github.com/yuin/goldmark v1.1.25/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
 github.com/yuin/goldmark v1.1.27/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
 github.com/yuin/goldmark v1.1.32/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=

@@ -16,7 +16,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/uptrace/opentelemetry-go-extra/otelutil"
+	"github.com/middleware-labs/opentelemetry-go-extra/otelutil"
 )
 
 const numAttr = 5

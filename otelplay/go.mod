@@ -1,9 +1,9 @@
-module github.com/uptrace/opentelemetry-go-extra/otelplay
+module github.com/middleware-labs/opentelemetry-go-extra/otelplay
 
 go 1.18
 
 require (
-	github.com/uptrace/uptrace-go v1.13.0
+	github.com/middleware-labs/uptrace-go v1.13.0
 	go.opentelemetry.io/otel v1.13.0
 	go.opentelemetry.io/otel/exporters/jaeger v1.13.0
 	go.opentelemetry.io/otel/exporters/stdout/stdouttrace v1.13.0

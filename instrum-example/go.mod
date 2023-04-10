@@ -1,3 +1,3 @@
-module github.com/uptrace/opentelemetry-go-extra/otelpackage
+module github.com/middleware-labs/opentelemetry-go-extra/otelpackage
 
 go 1.18

@@ -1,12 +1,12 @@
-module github.com/uptrace/opentelemetry-go-extra/example/gorilla-mux
+module github.com/middleware-labs/opentelemetry-go-extra/example/gorilla-mux
 
 go 1.18
 
-replace github.com/uptrace/opentelemetry-go-extra/otelplay => ../../otelplay
+replace github.com/middleware-labs/opentelemetry-go-extra/otelplay => ../../otelplay
 
 require (
 	github.com/gorilla/mux v1.8.0
-	github.com/uptrace/opentelemetry-go-extra/otelplay v0.1.21
+	github.com/middleware-labs/opentelemetry-go-extra/otelplay v0.1.21
 	go.opentelemetry.io/contrib/instrumentation/github.com/gorilla/mux/otelmux v0.39.0
 	go.opentelemetry.io/otel/trace v1.13.0
 )
@@ -18,7 +18,7 @@ require (
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.15.0 // indirect
-	github.com/uptrace/uptrace-go v1.13.0 // indirect
+	github.com/middleware-labs/uptrace-go v1.13.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/runtime v0.39.0 // indirect
 	go.opentelemetry.io/otel v1.13.0 // indirect
 	go.opentelemetry.io/otel/exporters/jaeger v1.13.0 // indirect

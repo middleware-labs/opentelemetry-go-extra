@@ -7,8 +7,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/uptrace/opentelemetry-go-extra/example/grpc/api"
-	"github.com/uptrace/opentelemetry-go-extra/otelplay"
+	"github.com/middleware-labs/opentelemetry-go-extra/example/grpc/api"
+	"github.com/middleware-labs/opentelemetry-go-extra/otelplay"
 
 	"go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc"
 	"go.opentelemetry.io/otel/trace"

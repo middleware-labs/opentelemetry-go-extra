@@ -1,11 +1,11 @@
-module github.com/uptrace/opentelemetry-go-extra/example/mongo-driver
+module github.com/middleware-labs/opentelemetry-go-extra/example/mongo-driver
 
 go 1.18
 
-replace github.com/uptrace/opentelemetry-go-extra/otelplay => ../../otelplay
+replace github.com/middleware-labs/opentelemetry-go-extra/otelplay => ../../otelplay
 
 require (
-	github.com/uptrace/opentelemetry-go-extra/otelplay v0.1.21
+	github.com/middleware-labs/opentelemetry-go-extra/otelplay v0.1.21
 	go.mongodb.org/mongo-driver v1.11.1
 	go.opentelemetry.io/contrib/instrumentation/go.mongodb.org/mongo-driver/mongo/otelmongo v0.39.0
 	go.opentelemetry.io/otel v1.13.0
@@ -21,7 +21,7 @@ require (
 	github.com/klauspost/compress v1.15.15 // indirect
 	github.com/montanaflynn/stats v0.7.0 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/uptrace/uptrace-go v1.13.0 // indirect
+	github.com/middleware-labs/uptrace-go v1.13.0 // indirect
 	github.com/xdg-go/pbkdf2 v1.0.0 // indirect
 	github.com/xdg-go/scram v1.1.2 // indirect
 	github.com/xdg-go/stringprep v1.0.4 // indirect

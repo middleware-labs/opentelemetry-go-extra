@@ -1,12 +1,12 @@
-module github.com/uptrace/opentelemetry-go-extra/example/grpc
+module github.com/middleware-labs/opentelemetry-go-extra/example/grpc
 
 go 1.18
 
-replace github.com/uptrace/opentelemetry-go-extra/otelplay => ../../otelplay
+replace github.com/middleware-labs/opentelemetry-go-extra/otelplay => ../../otelplay
 
 require (
 	github.com/golang/protobuf v1.5.2
-	github.com/uptrace/opentelemetry-go-extra/otelplay v0.1.21
+	github.com/middleware-labs/opentelemetry-go-extra/otelplay v0.1.21
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.39.0
 	go.opentelemetry.io/otel/trace v1.13.0
 	google.golang.org/grpc v1.53.0
@@ -18,7 +18,7 @@ require (
 	github.com/go-logr/logr v1.2.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.15.0 // indirect
-	github.com/uptrace/uptrace-go v1.13.0 // indirect
+	github.com/middleware-labs/uptrace-go v1.13.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/runtime v0.39.0 // indirect
 	go.opentelemetry.io/otel v1.13.0 // indirect
 	go.opentelemetry.io/otel/exporters/jaeger v1.13.0 // indirect

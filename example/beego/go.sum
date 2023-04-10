@@ -259,8 +259,8 @@ github.com/stretchr/testify v1.8.1 h1:w7B6lhMri9wdJUVmEZPGGhZzrYTPvgJArz7wNPgYKs
 github.com/syndtr/goleveldb v0.0.0-20160425020131-cfa635847112/go.mod h1:Z4AUp2Km+PwemOoO/VB5AOx9XSsIItzFjoJlOSiYmn0=
 github.com/syndtr/goleveldb v0.0.0-20181127023241-353a9fca669c/go.mod h1:Z4AUp2Km+PwemOoO/VB5AOx9XSsIItzFjoJlOSiYmn0=
 github.com/ugorji/go v0.0.0-20171122102828-84cb69a8af83/go.mod h1:hnLbHMwcvSihnDhEfx2/BzKp2xb0Y+ErdfYcrs9tkJQ=
-github.com/uptrace/uptrace-go v1.13.0 h1:ZVeKwQEmDP9K9ypMIOYUHA03cG2dfzZTatq6nRhdqbw=
-github.com/uptrace/uptrace-go v1.13.0/go.mod h1:HnVvehNYUr4NcthYqd/bsmG2YDh+2WkDdpJKjX0tygs=
+github.com/middleware-labs/uptrace-go v1.13.0 h1:ZVeKwQEmDP9K9ypMIOYUHA03cG2dfzZTatq6nRhdqbw=
+github.com/middleware-labs/uptrace-go v1.13.0/go.mod h1:HnVvehNYUr4NcthYqd/bsmG2YDh+2WkDdpJKjX0tygs=
 github.com/wendal/errors v0.0.0-20130201093226-f66c77a7882b/go.mod h1:Q12BUT7DqIlHRmgv3RskH+UCM/4eqVMgI0EMmlSpAXc=
 github.com/yuin/goldmark v1.1.25/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
 github.com/yuin/goldmark v1.1.27/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=

@@ -17,7 +17,7 @@ import (
 	"go.opentelemetry.io/otel/trace"
 )
 
-const instrumName = "github.com/middleware-lab/opentelemetry-go-extra/otelsql"
+const instrumName = "github.com/middleware-labs/opentelemetry-go-extra/otelsql"
 
 var dbRowsAffected = attribute.Key("db.rows_affected")
 

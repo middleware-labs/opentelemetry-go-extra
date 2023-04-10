@@ -1,17 +1,17 @@
-module github.com/uptrace/opentelemetry-go-extra/otelsqlx/example
+module github.com/middleware-labs/opentelemetry-go-extra/otelsqlx/example
 
 go 1.18
 
-replace github.com/uptrace/opentelemetry-go-extra/otelsqlx => ../
+replace github.com/middleware-labs/opentelemetry-go-extra/otelsqlx => ../
 
-replace github.com/uptrace/opentelemetry-go-extra/otelsql => ../../otelsql
+replace github.com/middleware-labs/opentelemetry-go-extra/otelsql => ../../otelsql
 
-replace github.com/uptrace/opentelemetry-go-extra/otelplay => ../../otelplay
+replace github.com/middleware-labs/opentelemetry-go-extra/otelplay => ../../otelplay
 
 require (
-	github.com/uptrace/opentelemetry-go-extra/otelplay v0.1.21
-	github.com/uptrace/opentelemetry-go-extra/otelsql v0.1.21
-	github.com/uptrace/opentelemetry-go-extra/otelsqlx v0.1.21
+	github.com/middleware-labs/opentelemetry-go-extra/otelplay v0.1.21
+	github.com/middleware-labs/opentelemetry-go-extra/otelsql v0.1.21
+	github.com/middleware-labs/opentelemetry-go-extra/otelsqlx v0.1.21
 	go.opentelemetry.io/otel v1.13.0
 	modernc.org/sqlite v1.20.3
 )
@@ -28,7 +28,7 @@ require (
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51 // indirect
 	github.com/mattn/go-isatty v0.0.17 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
-	github.com/uptrace/uptrace-go v1.13.0 // indirect
+	github.com/middleware-labs/uptrace-go v1.13.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/runtime v0.39.0 // indirect
 	go.opentelemetry.io/otel/exporters/jaeger v1.13.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/internal/retry v1.13.0 // indirect

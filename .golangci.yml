@@ -11,4 +11,4 @@ linters-settings:
     #ignore-words:
     #  - someword
   goimports:
-    local-prefixes: github.com/uptrace/opentelemetry-go-extra
+    local-prefixes: github.com/middleware-labs/opentelemetry-go-extra

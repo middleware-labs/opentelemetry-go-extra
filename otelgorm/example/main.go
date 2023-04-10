@@ -7,8 +7,8 @@ import (
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 
-	"github.com/uptrace/opentelemetry-go-extra/otelgorm"
-	"github.com/uptrace/opentelemetry-go-extra/otelplay"
+	"github.com/middleware-labs/opentelemetry-go-extra/otelgorm"
+	"github.com/middleware-labs/opentelemetry-go-extra/otelplay"
 )
 
 func main() {

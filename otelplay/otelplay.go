@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/uptrace/uptrace-go/uptrace"
+	"github.com/middleware-labs/uptrace-go/uptrace"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/exporters/jaeger"
 	"go.opentelemetry.io/otel/exporters/stdout/stdouttrace"

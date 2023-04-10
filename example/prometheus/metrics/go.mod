@@ -1,4 +1,4 @@
-module github.com/uptrace/opentelemetry-go-extra/example/prometheus/metrics
+module github.com/middleware-labs/opentelemetry-go-extra/example/prometheus/metrics
 
 go 1.18
 

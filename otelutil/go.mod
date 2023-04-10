@@ -1,4 +1,4 @@
-module github.com/uptrace/opentelemetry-go-extra/otelutil
+module github.com/middleware-labs/opentelemetry-go-extra/otelutil
 
 go 1.18
 

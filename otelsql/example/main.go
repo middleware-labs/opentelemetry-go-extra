@@ -7,8 +7,8 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.10.0"
 	_ "modernc.org/sqlite"
 
-	"github.com/middleware-lab/opentelemetry-go-extra/otelplay"
-	"github.com/middleware-lab/opentelemetry-go-extra/otelsql"
+	"github.com/middleware-labs/opentelemetry-go-extra/otelplay"
+	"github.com/middleware-labs/opentelemetry-go-extra/otelsql"
 )
 
 func main() {
