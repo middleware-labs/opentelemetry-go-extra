@@ -253,11 +253,7 @@ func (c *otelConn) createExecCtxFunc(conn driver.Conn) execCtxFunc {
 
 	return func(ctx context.Context, query string, args []driver.NamedValue) (driver.Result, error) {
 		var res driver.Result
-		spanName := "db.Exec"
-		if query != "" {
-			spanName = query
-		}
-		if err := c.instrum.withSpan(ctx, spanName, query,
+		if err := c.instrum.withSpan(ctx, "db.Exec", query,
 			func(ctx context.Context, span trace.Span) error {
 				var err error
 				res, err = fn(ctx, query, args)
