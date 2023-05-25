@@ -59,7 +59,11 @@ func (s *otelStmt) createExecCtxFunc(stmt driver.Stmt) stmtExecCtxFunc {
 
 	return func(ctx context.Context, args []driver.NamedValue) (driver.Result, error) {
 		var res driver.Result
-		err := s.instrum.withSpan(ctx, "stmt.Exec", s.query,
+		var spanName = "stmt.Exec"
+		if s.query != "" {
+			spanName = s.query
+		}
+		err := s.instrum.withSpan(ctx, spanName, s.query,
 			func(ctx context.Context, span trace.Span) error {
 				var err error
 				res, err = fn(ctx, args)
