@@ -66,6 +66,7 @@ func (p otelPlugin) Initialize(db *gorm.DB) (err error) {
 		hook     gormHookFunc
 		name     string
 	}{
+
 		{cb.Create().Before("gorm:create"), p.before("gorm.Create"), "before:create"},
 		{cb.Create().After("gorm:create"), p.after(), "after:create"},
 
@@ -140,7 +141,12 @@ func (p *otelPlugin) after() gormHookFunc {
 
 		query := tx.Dialector.Explain(tx.Statement.SQL.String(), vars...)
 
-		attrs = append(attrs, semconv.DBStatementKey.String(p.formatQuery(query)))
+		formatQuery := p.formatQuery(query)
+		if formatQuery != "" {
+			span.SetName(formatQuery)
+		}
+
+		attrs = append(attrs, semconv.DBStatementKey.String(formatQuery))
 		if tx.Statement.Table != "" {
 			attrs = append(attrs, semconv.DBSQLTableKey.String(tx.Statement.Table))
 		}
