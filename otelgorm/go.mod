@@ -5,7 +5,7 @@ go 1.18
 replace github.com/middleware-labs/opentelemetry-go-extra/otelsql => ../otelsql
 
 require (
-	github.com/middleware-labs/opentelemetry-go-extra/otelsql v0.2.1
+	github.com/middleware-labs/opentelemetry-go-extra/otelsql v0.0.0-20230531114551-a7b5eeec1394
 	go.opentelemetry.io/otel v1.16.0
 	go.opentelemetry.io/otel/trace v1.16.0
 	gorm.io/gorm v1.25.1
