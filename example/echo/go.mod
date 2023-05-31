@@ -1,12 +1,12 @@
-module github.com/uptrace/opentelemetry-go-extra/example/echo
+module github.com/middleware-labs/opentelemetry-go-extra/example/echo
 
 go 1.18
 
-replace github.com/uptrace/opentelemetry-go-extra/otelplay => ../../otelplay
+replace github.com/middleware-labs/opentelemetry-go-extra/otelplay => ../../otelplay
 
 require (
 	github.com/labstack/echo/v4 v4.10.2
-	github.com/uptrace/opentelemetry-go-extra/otelplay v0.2.1
+	github.com/middleware-labs/opentelemetry-go-extra/otelplay v0.2.1
 	go.opentelemetry.io/contrib/instrumentation/github.com/labstack/echo/otelecho v0.42.0
 	go.opentelemetry.io/otel/trace v1.16.0
 )
@@ -21,7 +21,7 @@ require (
 	github.com/labstack/gommon v0.4.0 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.19 // indirect
-	github.com/uptrace/uptrace-go v1.16.0 // indirect
+	github.com/middleware-labs/uptrace-go v1.16.0 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasttemplate v1.2.2 // indirect
 	go.opentelemetry.io/contrib/instrumentation/runtime v0.42.0 // indirect

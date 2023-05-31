@@ -1,17 +1,17 @@
-module github.com/uptrace/opentelemetry-go-extra/otellogrus/example
+module github.com/middleware-labs/opentelemetry-go-extra/otellogrus/example
 
 go 1.18
 
-replace github.com/uptrace/opentelemetry-go-extra/otellogrus => ./..
+replace github.com/middleware-labs/opentelemetry-go-extra/otellogrus => ./..
 
-replace github.com/uptrace/opentelemetry-go-extra/otelutil => ../../otelutil
+replace github.com/middleware-labs/opentelemetry-go-extra/otelutil => ../../otelutil
 
-replace github.com/uptrace/opentelemetry-go-extra/otelplay => ../../otelplay
+replace github.com/middleware-labs/opentelemetry-go-extra/otelplay => ../../otelplay
 
 require (
 	github.com/sirupsen/logrus v1.9.2
-	github.com/uptrace/opentelemetry-go-extra/otellogrus v0.2.1
-	github.com/uptrace/opentelemetry-go-extra/otelplay v0.2.1
+	github.com/middleware-labs/opentelemetry-go-extra/otellogrus v0.2.1
+	github.com/middleware-labs/opentelemetry-go-extra/otelplay v0.2.1
 	go.opentelemetry.io/otel v1.16.0
 )
 
@@ -21,8 +21,8 @@ require (
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.15.2 // indirect
-	github.com/uptrace/opentelemetry-go-extra/otelutil v0.2.1 // indirect
-	github.com/uptrace/uptrace-go v1.16.0 // indirect
+	github.com/middleware-labs/opentelemetry-go-extra/otelutil v0.2.1 // indirect
+	github.com/middleware-labs/uptrace-go v1.16.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/runtime v0.42.0 // indirect
 	go.opentelemetry.io/otel/exporters/jaeger v1.16.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/internal/retry v1.16.0 // indirect

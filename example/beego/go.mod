@@ -1,12 +1,12 @@
-module github.com/uptrace/opentelemetry-go-extra/example/beego
+module github.com/middleware-labs/opentelemetry-go-extra/example/beego
 
 go 1.18
 
-replace github.com/uptrace/opentelemetry-go-extra/otelplay => ../../otelplay
+replace github.com/middleware-labs/opentelemetry-go-extra/otelplay => ../../otelplay
 
 require (
 	github.com/astaxie/beego v1.12.3
-	github.com/uptrace/opentelemetry-go-extra/otelplay v0.2.1
+	github.com/middleware-labs/opentelemetry-go-extra/otelplay v0.2.1
 	go.opentelemetry.io/contrib/instrumentation/github.com/astaxie/beego/otelbeego v0.42.0
 	go.opentelemetry.io/otel/trace v1.16.0
 )
@@ -27,7 +27,7 @@ require (
 	github.com/prometheus/common v0.44.0 // indirect
 	github.com/prometheus/procfs v0.10.0 // indirect
 	github.com/shiena/ansicolor v0.0.0-20230509054315-a9deabde6e02 // indirect
-	github.com/uptrace/uptrace-go v1.16.0 // indirect
+	github.com/middleware-labs/uptrace-go v1.16.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.42.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/runtime v0.42.0 // indirect
 	go.opentelemetry.io/otel v1.16.0 // indirect
